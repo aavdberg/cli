@@ -48,7 +48,7 @@ See [Linux installation docs](/docs/install_linux.md).
 
 ### Windows
 
-`gh` is available via [scoop][], [Chocolatey][], and as downloadable MSI.
+`gh` is available via [scoop][], [Chocolatey][], and as downloadable MSI. And now also in WinGet
 
 #### scoop
 
@@ -71,6 +71,14 @@ scoop update gh
 |---|---|
 |`choco install gh`|`choco upgrade gh`|
 
+
+### WinGet
+
+Install/Upgrade:
+
+```powershell
+winget install github.cli
+```
 
 #### Signed MSI
 
